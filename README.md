@@ -25,7 +25,8 @@ RTT = 0,000107
 # UDP
 ![image](https://github.com/revelwivanto/handson_TCP-UDP/assets/116476269/54e9ae35-69ba-4499-a29d-6249f25c7284)
 1. packet number 42, port 57621, header length = 20 bytes, 4 field pada header UDP: Source Port, Destination Port, Length, Checksum
-2 & 3. UDP Header Length = 2 bytes (Source Port) + 2 bytes (Destination Port) + 2 bytes (Length) + 2 bytes (Checksum) = 8 bytes
+2. 
+3. UDP Header Length = 2 bytes (Source Port) + 2 bytes (Destination Port) + 2 bytes (Length) + 2 bytes (Checksum) = 8 bytes
 Total Length of the UDP Datagram = 52 bytes
 UDP Data Payload Length = Total Length of the UDP Datagram - UDP Header Length
 UDP Data Payload Length = 52 bytes - 8 bytes = 44 bytes
